@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporales de Office
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Archivos de versiones anteriores
+*_v[0-9].docx
+*_v[0-9].xlsx
+*_OLD*
+*_BORRADOR*
