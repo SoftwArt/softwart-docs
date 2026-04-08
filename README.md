@@ -39,6 +39,19 @@ SoftwArt was developed as a capstone project for the **Technology in Software An
 | [frontend-softwart-2](https://github.com/SoftwArt/frontend-softwart-2) | React · TypeScript · Vite · Tailwind · shadcn/ui |
 | [mobile-softwart](https://github.com/SoftwArt/mobile-softwart) | Flutter · Dart · Clean Architecture · Provider |
 
+### Roadmap — DevOps & Infrastructure
+
+The current deployment uses native CI/CD provided by Render and Vercel (auto-deploy on push to `main`). The following improvements are planned for future iterations:
+
+| Item | Description | Status |
+|---|---|---|
+| **GitHub Actions pipelines** | Explicit CI/CD workflows — lint, build and deploy stages per environment (dev / prod) | 🔜 Planned |
+| **Automated testing** | Unit and integration test suites for backend (Jest) and frontend (Vitest + Testing Library) | 🔜 Planned |
+| **Containerization** | Dockerize the backend service and define a `docker-compose.yml` for local development | 🔜 Planned |
+| **TypeORM migrations** | Replace `synchronize: true` with versioned migration files for safe schema changes in production | 🔜 Planned |
+| **Backup strategy** | Supabase automatic backups are active. A documented restore procedure and periodic export policy are planned | 🔜 Planned |
+| **Environment parity** | Align local, staging and production environments via `.env` schema validation (e.g. `zod` + `dotenv`) | 🔜 Planned |
+
 ### Built by
 
 **Sergio E. León V.** — [@selvcebo](https://github.com/selvcebo)
@@ -93,6 +106,19 @@ Arte Café operaba con agendas físicas, recibos en papel y acuerdos verbales de
 | Frontend | React 18 + TypeScript + Vite + Tailwind + shadcn/ui |
 | Mobile | Flutter 3 + Dart + Provider + Clean Architecture |
 | Deploy | Render (backend) · Vercel (frontend) · Supabase (BD) |
+
+### Roadmap — DevOps e Infraestructura
+
+El despliegue actual usa el CI/CD nativo de Render y Vercel (deploy automático en cada push a `main`). Las siguientes mejoras están planificadas para iteraciones futuras:
+
+| Ítem | Descripción | Estado |
+|---|---|---|
+| **Pipelines con GitHub Actions** | Workflows explícitos de CI/CD — etapas de lint, build y deploy por ambiente (dev / prod) | 🔜 Planificado |
+| **Tests automatizados** | Suites de pruebas unitarias e integración para backend (Jest) y frontend (Vitest + Testing Library) | 🔜 Planificado |
+| **Containerización** | Dockerizar el servicio backend y definir un `docker-compose.yml` para desarrollo local | 🔜 Planificado |
+| **Migraciones TypeORM** | Reemplazar `synchronize: true` por archivos de migración versionados para cambios de esquema seguros en producción | 🔜 Planificado |
+| **Estrategia de backups** | Los backups automáticos de Supabase están activos. Se planifica documentar el procedimiento de restauración y una política de exportación periódica | 🔜 Planificado |
+| **Paridad de entornos** | Alinear los entornos local, staging y producción mediante validación de esquema `.env` (ej. `zod` + `dotenv`) | 🔜 Planificado |
 
 ### Desarrollado por
 

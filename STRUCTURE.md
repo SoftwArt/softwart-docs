@@ -48,7 +48,7 @@ softwart-docs/
 
 ## Notas
 
-- Los diagramas de casos de uso se exportan desde [mermaid.live](https://mermaid.live) — el código fuente de cada diagrama está en el manual técnico, sección 11.1.
+- Los diagramas de casos de uso se exportan desde [mermaid.live](https://mermaid.live)
 - Los diagramas C4 y el diagrama de clases corresponden a las secciones 12 y 11.3 del manual técnico respectivamente.
 - La MHU contiene tres hojas: **Visión Proyecto**, **Epicas** y **Formato Matriz HU**.
 - El product backlog usa codificación jerárquica (`01.1.1`, `01.1.2`...) alineada con la MHU.
