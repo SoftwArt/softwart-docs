@@ -35,9 +35,9 @@ SoftwArt was developed as a capstone project for the **Technology in Software An
 
 | Repo | Description |
 |---|---|
-| [backend-softwart](https://github.com/SoftwArt/backend-softwart) | Node.js · Express · TypeScript · TypeORM · PostgreSQL |
-| [frontend-softwart-2](https://github.com/SoftwArt/frontend-softwart-2) | React · TypeScript · Vite · Tailwind · shadcn/ui |
-| [mobile-softwart](https://github.com/SoftwArt/mobile-softwart) | Flutter · Dart · Clean Architecture · Provider |
+| [softwart-backend](https://github.com/SoftwArt/backend-softwart) | Node.js · Express · TypeScript · TypeORM · PostgreSQL |
+| [softwart-frontend](https://github.com/SoftwArt/softwart-frontend) | React · TypeScript · Vite · Tailwind · shadcn/ui |
+| [softwart-mobile](https://github.com/SoftwArt/softwart-mobile) | Flutter · Dart · Clean Architecture · Provider |
 
 ### Roadmap — DevOps & Infrastructure
 
@@ -92,9 +92,9 @@ Arte Café operaba con agendas físicas, recibos en papel y acuerdos verbales de
 
 | Repo | Descripción |
 |---|---|
-| [backend-softwart](https://github.com/SoftwArt/backend-softwart) | Node.js · Express · TypeScript · TypeORM · PostgreSQL |
-| [frontend-softwart-2](https://github.com/SoftwArt/frontend-softwart-2) | React · TypeScript · Vite · Tailwind · shadcn/ui |
-| [mobile-softwart](https://github.com/SoftwArt/mobile-softwart) | Flutter · Dart · Clean Architecture · Provider |
+| [softwart-backend](https://github.com/SoftwArt/softwart-backend) | Node.js · Express · TypeScript · TypeORM · PostgreSQL |
+| [sofwart-frontend](https://github.com/SoftwArt/softwart-frontend) | React · TypeScript · Vite · Tailwind · shadcn/ui |
+| [softwart-mobile](https://github.com/SoftwArt/softwart-mobile) | Flutter · Dart · Clean Architecture · Provider |
 
 ### Stack general
 
